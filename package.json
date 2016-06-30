@@ -1,0 +1,25 @@
+{
+  "name": "eventbrite-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kqlee/eventbrite-api.git"
+  },
+  "author": "Kent Lee kentqlee@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kqlee/eventbrite-api/issues"
+  },
+  "homepage": "https://github.com/kqlee/eventbrite-api#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "request": "^2.72.0"
+  }
+}
