@@ -17,7 +17,8 @@ const Eventbrite = {
         Authorization: 'Bearer ' + process.env.EVENTBRITE_PERSONAL_OAUTH_TOKEN,
       },
       qs: {
-        q: query,
+        q: query.term,
+        'venue.city': query.city || 'San Francisco',
       },
       method: 'GET',
     }, (err, res, data) => {
